@@ -1,0 +1,196 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root{
+
+    --bg-principal: #042940; /* ou #005C30 */
+    --cor-semana: #FFE81B;
+    --cor-detalhes: #00861E;
+    --cor-decora: #005C53;
+
+}
+
+
+main{
+
+    background: linear-gradient(115deg, #005C53, #042940);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sForm{
+
+    width: 30%;
+    height: 350px;
+    background:  var(--cor-decora);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px #004841
+
+}
+
+.sForm form{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    width: 50%;
+    height: 130px;
+
+}
+
+.sForm form label{
+
+    color: #ddd;
+    margin: 10px 0;
+
+}
+
+.sForm form input{
+
+    width: 100%;
+    height: 20px;
+    margin: 0 0 20px 0;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #ddd;
+    border: none;
+
+}
+
+.sForms2{
+
+    width: 40%;
+    height: 460px;
+    background:  var(--cor-decora);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px #004841
+
+}
+
+.sForms2 form{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    width: 90%;
+    height: 250px;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    color: #ddd;
+
+}
+
+.sForms2 form input{
+
+    width: 80%;
+    height: 25px;
+    margin: 0 0 12px 0;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #ddd;
+    border: none;
+
+}
+
+.sForm form.form1 input[type="submit"]{
+
+    width: 101.35%;
+    height: 20px !important;
+    background: #004841;
+    border: 0.5px solid #004841;
+    color: #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+/* ================== pesquisa2.php ================== */
+.sForm h1{
+
+    color: #ddd;
+    position: relative;
+    bottom: 10%;
+
+}
+
+.h1p3{
+
+    text-align: center;
+    color: #ddd;
+
+}
+
+.cxbtns{
+
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 20%;
+
+}  
+
+.cxbtns button{
+
+    margin: 0 25px 0 -2px;
+    width: 240px;
+    border-radius: 5px;
+    border: 0.5px solid #ddd;
+    background: #005C53;
+
+}
+
+input[name="cep"]{
+
+    background: #ddd;
+
+}
+
+.cxbtns button a{
+
+    text-decoration: none;
+    color: #ddd;
+
+}
+
+.cxbtns input.btn_voltar{
+
+    border: 0.5px solid #004841;
+    background: #004841 ;
+    color: #ddd;
+    cursor: pointer;
+
+}
+
+.btn1{
+
+    cursor: pointer;
+
+}
+
+.datahora{
+
+    color: #ddd;
+
+}
